@@ -1,0 +1,30 @@
+section{
+
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    height: 500px;
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+    align-items: stretch;
+    padding: 10px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+article{
+    background-color: aqua;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    text-align: justify;
+    padding-top: 10%;
+    padding-left: 10%;
+    
+}
+
+article:hover{
+    background-color: blueviolet;
+}
