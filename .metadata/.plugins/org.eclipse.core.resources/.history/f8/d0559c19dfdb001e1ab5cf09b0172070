@@ -1,0 +1,15 @@
+package br.com.fiap.main;
+
+public class TesteConexao {
+	
+	public static void main (String[] args) throws ClassNotFoundExpection, SQLException{
+		
+		//Instanciar chamando o metodo de conexao da classe ConexaoFactory
+		Connection c = new ConexaoFactory().conexao();
+		
+		System.out.println("Conectando com o Banco de Dados")
+		
+	}
+	
+
+}

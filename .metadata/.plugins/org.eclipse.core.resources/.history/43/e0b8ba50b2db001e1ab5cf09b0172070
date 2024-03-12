@@ -1,0 +1,9 @@
+package br.com.fiap.connections;
+
+import java.sql.Connection;
+
+public class ConexaoFactory {
+	
+	//metodo de conexao com o banco de dados
+	public Connection 
+}

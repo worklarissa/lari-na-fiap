@@ -1,0 +1,19 @@
+package br.com.fiap.connections;
+
+import java.sql.Connection;
+
+public class ConexaoFactory {
+	
+	//metodo de conexao com o banco de dados
+	public Connection conexao() throws ClassNotFoundException{
+		
+		//Driver
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		
+		
+		
+		return null;
+		
+	}
+}
