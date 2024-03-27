@@ -2,17 +2,18 @@ package br.com.fiap.conexoes;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.SQLException;
 
 
 public class ConexaoFactory {
 	
-	public Connection conexao() {
+	public Connection conexao() throws ClassNotFoundException, SQLException {
 		
 		//Metodo Driver 
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		//Conexao
-		return DriverManager.getConnection("jdbc")
+		return DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl", "RM552628", "080704");
 		
 	}
 
